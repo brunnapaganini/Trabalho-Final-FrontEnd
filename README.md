@@ -1,1 +1,1 @@
-Aqui estão os arquivos do meu trabalho final do curso 3 mil talen ti, sobre as aulas de frontend.
+Aqui estão os arquivos do meu trabalho final do curso 3 mil talentos ti, sobre as aulas de frontend.
