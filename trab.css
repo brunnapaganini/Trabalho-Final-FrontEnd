@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    background-color: rgb(255, 240, 250);
+}
+
+header, footer {
+    width: 100vw;
+    min-height: 20vh;
+    background-color: rgb(255, 195, 221);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#proj {
+    list-style-type: none;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+  main {
+    width: 90vw;
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+#contato {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato input#nome{
+    padding: 6px;
+    border: 2px solid 
+}  
+
+#contato input#email{
+    padding: 6px;
+    border: 2px solid 
+}  
+
+#contato input#mensagem{
+    padding: 6px;
+    border: 2px solid 
+}  
+
+#contato button{
+    padding: 6px;
+    border: 2px solid;
+    background-color: rgb(255, 195, 221);
+}
+
+  @media (max-width:768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+    .barra-lateral, main {
+        width: 100%;
+      }
+  }
+  
+footer {
+    justify-content: center;
+}
